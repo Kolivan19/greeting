@@ -9,3 +9,9 @@ func Hello() {
 func Hi() {
 	fmt.Println("Hi")
 }
+
+func AllGreeting() {
+	Hello()
+	Hi()
+
+}
